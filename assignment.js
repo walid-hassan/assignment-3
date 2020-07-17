@@ -29,13 +29,13 @@ function woodCalculator(numOfBed, numOfTable, numOfChair){
 var result = woodCalculator(4, 2, 7);
 console.log(result);
 
-// Bulding brick calculator
+// Building brick calculator
 
 function brickCalculator(n){
     var brickForFloor11To20th = 0;
     var brickForFloorgAfter20th = 0;
     if(n < 1 ){
-      return "Invalid Input"
+      return "Invalid Input."
     }
     else{
       for(var i = 1; i <= n; i++){ 
